@@ -634,12 +634,12 @@ footer span a:hover{
 
 @media (max-width: 1104px) {
     .about .about-content .left img{
-        height: 350px;
+        height: 250px;
         width: 350px;
     }
 
     .skills .skills-content .left img{
-        height: 350px;
+        height: 150px;
         width: 350px;
     }
 
