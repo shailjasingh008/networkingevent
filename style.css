@@ -633,10 +633,6 @@ footer span a:hover{
 }
 
 @media (max-width: 1104px) {
-    .about .about-content .left img{
-        height: 250px;
-        width: 350px;
-    }
 
     .skills .skills-content .left img{
         height: 150px;
@@ -772,8 +768,13 @@ footer span a:hover{
     [class*="contact"] {
       width: 100%;
     }
-    [class*="video"]{
-    max-width: 100%;
-    height: auto;
-  }
+    .skills .skills-content .left img{
+        height: 150px;
+        width: 350px;
+    }
+
+    .skills .skills-content .right video{
+        height: 250px;
+        width: 350px;
+    }
 }
