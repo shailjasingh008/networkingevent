@@ -609,6 +609,61 @@ padding: 50px;
     text-transform: uppercase;
     cursor: pointer;
   }
+
+  .stickySection.show {
+    transform: translateY(0%);
+}
+.stickySection {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 2;
+    border-top: 1px solid #ccc;
+    transition: 0.3s;
+    transform: translateY(100%); }
+    .stickySection.show {
+      transform: translateY(0%); }
+    .stickySection .column.col-lg-12 {
+      padding: 0; }
+    .stickySection .eventInfoWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 0;
+      width: 1170px;
+      margin: auto;
+      max-width: 100%; }
+      .stickySection .eventInfoWrapper .eventQuickInfo span.date {
+        margin-bottom: 10px;
+        display: inline-block; }
+        @media (min-width: 576px) {
+          .stickySection .eventInfoWrapper .eventQuickInfo span.date + .date {
+            margin-left: 50px; } }
+        @media (max-width: 575.98px) {
+          .stickySection .eventInfoWrapper .eventQuickInfo span.date {
+            font-size: 13px;
+            margin-bottom: 5px; }
+            .stickySection .eventInfoWrapper .eventQuickInfo span.date + .date {
+              margin-left: 15px; } }
+      @media (max-width: 599.98px) {
+        .stickySection .eventInfoWrapper .eventHeading h4 {
+          font-size: 1rem; } }
+      .stickySection .eventInfoWrapper .eventHeading h4 {
+        margin: 0; }
+      @media (max-width: 599.98px) {
+        .stickySection .eventInfoWrapper {
+          flex-direction: column;
+          padding: 5px; }
+          .stickySection .eventInfoWrapper .eventQuickInfo {
+            width: 100%; }
+          .stickySection .eventInfoWrapper .registerProvess {
+            margin-top: 5px;
+            width: 100%; }
+            .stickySection .eventInfoWrapper .registerProvess .btn.btn-primary {
+              padding: 4px 20px; } }
 /* footer section styling */
 footer{
     background: #111;

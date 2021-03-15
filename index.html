@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>main page</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -13,27 +12,126 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
+    <link rel="stylesheet" href="https://indianstartups.com/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://indianstartups.com/css/RubikFont.css">
+    <link rel="stylesheet" href="https://indianstartups.com/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://indianstartups.com/css/aos.css" />
+
+    <script src="https://indianstartups.com/Js/jquery.min.js"></script>
+    <script src="https://indianstartups.com/Js/popper.min.js"></script>
+    <script src="https://indianstartups.com/Js/owl.carousel.min.js"></script>
+    <script src="https://indianstartups.com/Js/bootstrap.min.js"></script>
+    <script src="https://indianstartups.com/Js/aos.js"></script>
+
+    <link rel="stylesheet" href="https://indianstartups.com/css/header-footer.css">
+    <link rel="stylesheet" href="https://indianstartups.com/css/detail.css">
 </head>
 <body>    
-    <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#"><img src="logo2.png"></a></div>
-            <ul class="menu"> 
-                <li><a href="https://indianstartups.com/" class="menu-btn">HOME</a></li>
-                <li><a href="https://indianstartups.com/events/" class="menu-btn">EVENT</a></li>
-                <li><a href="https://indianstartups.com/mentors/" class="menu-btn">MENTOR</a></li>
-                <li><a href="https://indianstartups.com/directory/" class="menu-btn">DIRECTORY</a>  
-                <li><a href="https://indianstartups.com/directory/" class="menu-btn">SERVICES</a></li>
-                <li><a href="https://indianstartups.com/static-pages/videos.html" class="menu-btn">VIDEOS</a></li>
-            </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
+    <div id="header"><header>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-50172092-4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-50172092-4');
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        
+        <div class="container">
+            <div class="row">
+                <div class="column col-lg-12">
+                    <div class="headerWrapper">
+                        <div class="companyLogo">
+                            <a href="/">
+                                <img src="logo2.png" alt="logo">
+                            </a>
+                        </div>
+                        
+                        <div class="quickLinks">
+                            <a href="/" class="headerLinks">Home</a>
+                            <a href="/events/" class="headerLinks mLeft40">Events</a>
+                            <a href="https://jobfair-cjuru.ondigitalocean.app/" class="headerLinks mLeft40">Job Fair</a>
+                            <!--<a href="/mentors/" class="headerLinks mLeft40">Mentors</a>-->
+                            <!--<a href="/static-pages/news.html" class="headerLinks mLeft40">News</a>-->
+                            <div class="customDropdown mLeft40 count3">
+                                <a href="/directory/" class="headerLinks dropdown-toggle">Directory</a>
+                                <ul class="customDropdownMenu">
+                                    <li><a href="/meetups/" class="dropdown-item">Meetups</a></li>
+                                    <li><a href="/events/" class="dropdown-item">Events</a></li>
+                                    <li><a href="/startups/" class="dropdown-item">Startups</a></li>
+                                    <li><a href="/founders/" class="dropdown-item">Founders</a></li>
+                                    <li><a href="/cofounders/" class="dropdown-item">Cofounders</a></li>
+                                    <li><a href="/speakers/" class="dropdown-item">Speakers</a></li>
+                                    <li><a href="/mentors/" class="dropdown-item">Mentors</a></li>
+                                    <li><a href="/trainers/" class="dropdown-item">Trainers</a></li>
+                                    <li><a href="/blogger/" class="dropdown-item">Bloggers</a></li>
+                                    <li><a href="/interns/" class="dropdown-item">Interns</a></li>
+                                    <li><a href="/freelancers/" class="dropdown-item">Freelancers</a></li>
+                                    <li><a href="/service-providers/" class="dropdown-item">Service Providers</a></li>
+                                    <li><a href="/partners/" class="dropdown-item">Partners</a></li>
+                                    <li><a href="/sponsors/" class="dropdown-item">Sponsors</a></li>
+                                    <li><a href="/nri-startups/" class="dropdown-item">NRI Startups</a></li>
+                                </ul>
+                            </div>
+                            <div class="customDropdown mLeft40 count3">
+                                <a href="/services/" class="headerLinks dropdown-toggle">Services</a>
+                                <ul class="customDropdownMenu">
+                                    <li><a href="/services/legal-compliance/" class="dropdown-item">Legal Compliance</a></li>
+                                    <li><a href="/services/co-founder-agreements/" class="dropdown-item">Co-Founder Agreements</a></li>
+                                    <li><a href="/services/marketing-strategy-and-sales/" class="dropdown-item">Marketing Strategy and Sales</a></li>
+                                    <li><a href="/services/intellectual-properties-and-trademarks/" class="dropdown-item">Intellectual Properties and Trademarks</a></li>
+                                    <li><a href="/services/hr-consulting-services/" class="dropdown-item">HR Consulting Services</a></li>
+                                    <li><a href="/services/product-management-services/" class="dropdown-item">Product Management Services</a></li>
+                                    <li><a href="/services/it-software-development-services/" class="dropdown-item">IT Software Development Services</a></li>
+                                    <li><a href="/services/business-plan-writing-services/" class="dropdown-item">Business Plan Writing Services</a></li>
+                                    <li><a href="/services/pitch-deck-preparation-services/" class="dropdown-item">Pitch Deck Preparation Services</a></li>
+                                    <li><a href="/services/bookkeeping-and-accountancy/" class="dropdown-item">Bookkeeping &amp; Accountancy</a></li>
+                                    <li><a href="/services/gst-services/" class="dropdown-item">GST Services</a></li>
+                                    <li><a href="/services/startup-company-registrations/" class="dropdown-item">Startup/Company Registrations</a></li>
+                                    <li><a href="/services/mentoring-services/" class="dropdown-item">Mentoring Services</a></li>
+                                    <li><a href="/services/advisory-services/" class="dropdown-item">Advisory Services</a></li>
+                                    <li><a href="/services/virtual-cxo-services/" class="dropdown-item">Virtual CXO Services</a></li>
+                                    <li><a href="/services/funding-services/" class="dropdown-item">Funding Services</a></li>
+                                    <li><a href="/services/training-services/" class="dropdown-item">Training Services</a></li>
+                                    <li><a href="/services/beta-testing-services/" class="dropdown-item">Beta Testing Services</a></li>
+                                    <li><a href="/services/csr-initiatives/" class="dropdown-item">CSR Initiatives</a></li>
+                                    <li><a href="/services/startup-hosting-services/" class="dropdown-item">Startup Hosting Services</a></li>
+                                </ul>
+                            </div>
+                            <a href="/static-pages/videos.html" class="headerLinks mLeft40">Videos</a>
+    
+                            <div class="reg-login">
+                                <a href="/identity/account/register" class="headerLinks mLeft40 loggedInHide">Register</a>
+                                <a href="/identity/account/login" class="headerLinks mLeft40 loggedInHide">Login</a>
+                                <div class="customDropdown mLeft40 loggedInShow">
+                                    <a href="javascript:void(0)" class="headerLinks dropdown-toggle userName"></a>
+                                    <ul class="customDropdownMenu">
+                                        <li><a href="/s/profile" class="dropdown-item">Dashboard</a></li>
+                                        <li><a href="/identity/account/logout" class="dropdown-item">Log Out</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div id="menuToggle">
+                            <svg class="menuicon" xmlns="" width="40" height="40" viewBox="0 0 50 50">
+                                <g>
+                                    <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5"></line>
+                                    <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"></line>
+                                    <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"></line>
+                                    <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5"></line>
+                                    <circle class="menuicon__circle" r="23" cx="25" cy="25"></circle>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
             </div>
-</div>
-</nav>
+        </div>
+    </header></div>
+
 
   <!-- home section start -->
   <section class="home" id="home">
@@ -62,33 +160,29 @@
 
             <section class="social" id="social">
 
-                <p style="font-family:poppins ; font-weight: 400; font-size: 20px;"> 31st March 5:00 PM - 9:00 PM (India Time) 6:30 AM - 10:30 AM (EST/Toronto) 3:30 AM - 7:30 AM (PST)</p>
-                <br>
-                <br>
-                
-                <div class="wrapper">
-                    <div class="icon facebook">
-                      <div class="tooltip">
-              </div>
-              <span><i class="fab fa-facebook-f"></i></span>
-                    </div>
-              <div class="icon twitter">
-                      <div class="tooltip">
-              </div>
-              <span><i class="fab fa-twitter"></i></span>
-                    </div>
-              <div class="icon Linkedin">
-                      <div class="tooltip">
-            </div>
-              <span><i class="fab  fa-linkedin"></i></span>
-                    </div>
-              <div class="icon youtube">
-                      <div class="tooltip">
-              </div>
-              <span><i class="fas fa-envelope-open-text"></i></span>
-                    </div>
-                </div>
-            </section>
+                <p style="font-family:poppins ; font-weight: 400; font-size: 20px;"> 31st March 5:00 PM - 9:00 PM 
+                    (India Time) 6:30 AM - 10:30 AM (EST/Toronto) 3:30 AM - 7:30 AM (PST)</p>
+                <div class="container detailContainer">
+                    <div class="row">
+                        <div class="column col-lg-12">
+                            <div class="imgInfoWrapper row">
+                                <div class="hostInfo col-md-12">
+                                    <div class="shareIcons">
+                                        <a href="https://www.facebook.com/indianstartupsnetwork">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                        <a href="https://twitter.com/indianstartups1">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com/company/indian-startups-com">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                        <a href="mailto:info@indianstartups.com">
+                                            <i class="fa fa-envelope"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
 
     <!-- about section start -->
     <section class="about" id="about">
@@ -104,8 +198,7 @@
                         When a lion roars, only other lions can understand.
                         <br>
                         <br>
-
-Similarly, if you want investors to understand your idea and give you an opportunity to pitch, then you should have mastered the fundamentals of finance as it will equip you to communicate effectively using the language of business – numbers!
+                        Similarly, if you want investors to understand your idea and give you an opportunity to pitch, then you should have mastered the fundamentals of finance as it will equip you to communicate effectively using the language of business – numbers!
 
                         
                         
@@ -188,22 +281,43 @@ DATE & TIME: 31st March
             </div>
         </div>
     </section-->
+      <div class="container-fluid stickySection">
+        <div class="row">
+            <div class="column col-lg-12">
+                <div class="eventInfoWrapper">
+                    <div class="eventQuickInfo">
+                        <div class="eventDate">
+                            <span class="EventDateDay date"><i class="fa fa-calendar"></i></span>
+                            <span class="EventDateTime date"><i class="fa fa-clock-o"></i></span>
+                        </div>
+                        <div class="eventHeading">
+                            <h4>Free Virtual Startup / Business Networking Event</h4>
+                        </div>
+                    </div>
+                    <div class="registerProvess">
+                        <a href="/events/startup-networking/register.html" target="_blank" class="btn btn-primary">Register</a>
+                    </div>
+                </div>
 
-    <!---->
+            </div>
+        </div>
+    </div>
+</div>
+
 
     <!-- footer section start -->
     <footer style="width: 100%;">
        <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
 
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#"><img src="logo2.png"></a></div>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
-</div>
-</nav>
+    <div id="footer"></div>
+    <script>
+        document.getElementsByClassName('EventDateDay')[0].innerHTML = 'Mar 27, 2021';
+        document.getElementsByClassName('EventDateTime')[0].innerHTML = '6:30 PM to 9:00 PM GMT+5:30';
+        document.getElementById("payuid").href = "https://www.payumoney.com/paybypayumoney/#/C1E3B33E38BC6ABA797D92DA28649A70";
+    </script>
+    <script src="https://indianstartups.com/Js/index.js"></script>
+    <script src="https://indianstartups.com/Js/detail.js"></script>
 
 
  <script src="script.js"></script>
